@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5ac128b23b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pete's Pet Sitting</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="nav-left">
+                <img src="./Assets/navLogo.JPG">            
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="contact">
+            <p>
+            Your feedback is important. Whether it's good or bad I want to hear from you. Let me know what you liked, what could be better or leave a testimonial. Please leave your feedback by filling out the form below.
+            </p>
+            <form action="./thankyou.html">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="message" name="Message" placeholder="What is your message?" required>
+                <label for="cars">Choose a priority:</label>
+                <select id="priority" name="Priority" required>
+                   <option value="low">Low</option>
+                   <option value="medium">Medium</option>
+                   <option value="high">High</option>
+                </select>    
+                <button type="submit">Submit</button>
+               </form>
+        </div>
+    </div>    
+</body>
+</html>

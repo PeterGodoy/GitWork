@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    border-bottom: 2px solid;
+    align-items: center;
+    justify-content: space-between;
+    color: black;  
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;      
+}
+
+.nav-left img {
+    padding-right: 100px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    padding: 15px;
+    font-size: 25px;    
+    text-decoration: none;    
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.nav-right i {
+    padding: 15px;        
+}
+
+.welcome {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.welcome p {
+    padding-bottom: 20px;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-container {
+    display: grid;       
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    justify-content: center;
+}
+
+.block {
+    padding-bottom: 20px;      
+}
+
+.block p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;    
+}
+
+.block img {
+    width: 300px;
+    height: 200px;       
+}
+
+.contact {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 50%;
+}
+
+.contact p {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.thankyou p {
+    font-size: 20px;    
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+}
+
+.service-block {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.service-block p {
+    font-size: 20px;
+}
+
+.service-block button {
+    justify-self: center;
+}
+
+.services img {
+    width: 300px;
+    height: 300px;
+}
+
