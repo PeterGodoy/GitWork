@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<style>
+    .formData {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    }
+    form {
+    font-size: 20px;
+    }
+    form input {
+    margin-left: 10px;
+    font-size: 15px;
+    }
+</style>
+<body>
+    <h1>Send us a message!</h1>
+   
+    <form action="./thankyou.html">
+     <input type="text" name="name" placeholder="Your Name" required>
+     <input type="email" name="email" placeholder="Your Email" required>
+     <input type="message" name="Message" placeholder="What is your message?" required>
+     <label for="cars">Choose a priority:</label>
+     <select id="priority" name="Priority" required>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+     </select>    
+     <button type="submit">Submit</button>
+    </form>
+
+
+</body>
+</html>
